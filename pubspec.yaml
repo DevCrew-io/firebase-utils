@@ -9,10 +9,9 @@ false_secrets:
   - /example/lib/firebase_options.dart
   - /example/android/app/google-services.json
   - /example/ios/Runner/GoogleService-Info.plist
-  - /example/lib/firebase_options.dart
 
 environment:
-  sdk: '>=2.19.2 <3.0.0'
+  sdk: '>=2.19.2 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
