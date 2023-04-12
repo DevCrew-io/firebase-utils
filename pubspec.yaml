@@ -5,6 +5,11 @@ homepage: https://github.com/DevCrew-io/firebase-utils#readme
 repository: https://github.com/DevCrew-io/firebase-utils
 issue_tracker: https://github.com/DevCrew-io/firebase-utils/issues
 documentation: https://github.com/DevCrew-io/firebase-utils/blob/main/example/README.md
+false_secrets:
+  - /example/lib/firebase_options.dart
+  - /example/android/app/google-services.json
+  - /example/ios/Runner/GoogleService-Info.plist
+  - /example/lib/firebase_options.dart
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
