@@ -46,7 +46,7 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   final FireStoreService _fireStoreService = Get.find();
-  final FirebaseStorageService _firebaseStorageService = Get.find();
+  // final FirebaseStorageService _firebaseStorageService = Get.find();
 
   final RxList<UserInfo> userInfo = RxList();
 
