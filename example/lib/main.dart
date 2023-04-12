@@ -4,8 +4,6 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:firebase_utils/entity/firestore_doc.dart';
 import 'package:firebase_utils/firebase/firebase_storage_service.dart';
 import 'package:firebase_utils/firebase/firestore_service.dart';
-import 'package:firebase_utils/firebase/firestore_service.dart';
-import 'package:firebase_utils/firebase/firestore_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'firebase_options.dart';
@@ -127,6 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   'https://fastly.picsum.photos/id/23/200/200.jpg?hmac=IMR2f77CBqpauCb5W6kGzhwbKatX_r9IvgWj6n7FQ7c'),
           _userCollectionRef);
     }
+
   }
 
   void _deleteUser(String docId) async {
