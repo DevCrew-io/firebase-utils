@@ -11,7 +11,14 @@ class _FirebaseStorageServiceImpl extends FirebaseStorageService {
       await _firebaseStorage.ref(ref).putData(file);
       return await _firebaseStorage.ref(ref).getDownloadURL();
     } on FirebaseException catch (e) {
+      printException(e);
       return null;
+    }
+  }
+
+  printException(FirebaseException e){
+    if (kDebugMode) {
+      print(e.message);
     }
   }
 
@@ -24,6 +31,7 @@ class _FirebaseStorageServiceImpl extends FirebaseStorageService {
       await referenceImageToUpload.putData(file);
       return await referenceImageToUpload.getDownloadURL();
     } on FirebaseException catch (e) {
+      printException(e);
       return null;
     }
   }
@@ -33,6 +41,7 @@ class _FirebaseStorageServiceImpl extends FirebaseStorageService {
     try {
       await _firebaseStorage.ref(ref).delete();
     } on FirebaseException catch (e) {
+      printException(e);
       return null;
     }
   }
@@ -42,6 +51,7 @@ class _FirebaseStorageServiceImpl extends FirebaseStorageService {
     try {
       await _firebaseStorage.refFromURL(url).delete();
     } on FirebaseException catch (e) {
+      printException(e);
       return null;
     }
   }
