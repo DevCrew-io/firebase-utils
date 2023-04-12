@@ -1,5 +1,5 @@
-import 'dart:typed_data';
 import 'package:firebase_storage/firebase_storage.dart';
+import 'package:flutter/foundation.dart';
 part 'firebase_storage_service_impl.dart';
 
 /// This class is for FirebaseStorage Manager
