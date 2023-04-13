@@ -25,5 +25,4 @@ abstract class FirebaseStorageService {
 
   static FirebaseStorageService getInstance(FirebaseStorage firebaseStorage) =>
       _instance ??= _FirebaseStorageServiceImpl(firebaseStorage);
-
 }

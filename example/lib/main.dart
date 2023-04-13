@@ -125,7 +125,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   'https://fastly.picsum.photos/id/23/200/200.jpg?hmac=IMR2f77CBqpauCb5W6kGzhwbKatX_r9IvgWj6n7FQ7c'),
           _userCollectionRef);
     }
-
   }
 
   void _deleteUser(String docId) async {
