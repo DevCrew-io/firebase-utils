@@ -16,7 +16,7 @@ class _FirebaseStorageServiceImpl extends FirebaseStorageService {
     }
   }
 
-  printException(FirebaseException e){
+  printException(FirebaseException e) {
     if (kDebugMode) {
       print(e.message);
     }
