@@ -1,6 +1,6 @@
 name: firebase_utils
 description: Range of utilities for Firestore and Fire Storage, including CRUD operations and other essential functions
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/DevCrew-io/firebase-utils#readme
 repository: https://github.com/DevCrew-io/firebase-utils
 issue_tracker: https://github.com/DevCrew-io/firebase-utils/issues
